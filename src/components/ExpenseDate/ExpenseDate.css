@@ -2,17 +2,15 @@
   display: flex;
   flex-direction: column;
   width: 5.5rem;
-  height: 5.5rem;
-  border: 1px solid #ececec;
+  height: 4.5rem;
   background-color: #2a2a2a;
   color: white;
-  border-radius: 12px;
   align-items: center;
   justify-content: center;
 }
 
 .expense-date__month {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-weight: bold;
 }
 
@@ -21,6 +19,6 @@
 }
 
 .expense-date__day {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
