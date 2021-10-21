@@ -23,8 +23,8 @@ export const Expenses = (props) => {
           selected={filteredYear}
           onChangeFilter={filterChangeHandler}
         />
-      <Card className="expenses">
         <ExpensesChart expenses={filteredExpenses} />
+      <Card className="expenses">
         <ExpensesList items={filteredExpenses} />
       </Card>
     </>
